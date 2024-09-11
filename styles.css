@@ -14,11 +14,20 @@ body {
 
 header {
     text-align: center;
-    padding: 40px 20px; /* Reduced padding for a more compact header */
+    padding: 30px 20px; /* Reduced padding for a more compact header */
     background-color: #ffffff;
     margin-bottom: 10px; /* Reduced margin between header and nav */
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image Styling */
+.profile-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Keep it square */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover;
+    margin-bottom: 15px; /* Space between image and heading */
 }
 
 header h1 {
