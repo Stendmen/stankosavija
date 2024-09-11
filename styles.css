@@ -7,42 +7,51 @@
 
 /* Body Styling */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #ffffff; /* White background */
-    color: #333; /* Black text */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
     line-height: 1.6;
+    padding: 20px;
 }
 
 /* Header Styling */
 header {
-    background: #ffffff; /* White background */
-    color: #333; /* Black text */
     text-align: center;
-    padding: 100px 20px; /* Adds space above and below */
-    border-bottom: 2px solid #ddd; /* Subtle divider */
+    padding: 80px 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    font-size: 3em; /* Bigger font for the name */
-    font-weight: 700; /* Bold */
-    margin-bottom: 10px; /* Space between name and description */
-    font-family: 'Georgia', serif; /* More elegant font for the heading */
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+    color: #333;
 }
 
 header p {
-    font-size: 1.2em; /* Smaller font for description */
-    font-weight: 300; /* Light font weight */
-    color: #555; /* Slightly lighter black for description */
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #555;
 }
 
 /* Section Styling */
 section {
-    background: #fff;
+    background: #ffffff;
     margin: 20px auto;
-    padding: 20px;
+    padding: 30px;
     max-width: 800px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Headings */
@@ -57,15 +66,17 @@ h2 {
 /* Paragraph Styling */
 p {
     margin-bottom: 15px;
+    color: #555;
 }
 
 /* Project Card Styling */
 .project {
-    background: #f9f9f9;
-    padding: 15px;
+    background: #f5f5f5;
+    padding: 20px;
     margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .project h3 {
@@ -77,6 +88,8 @@ p {
     color: #3498db;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .project a:hover {
@@ -96,4 +109,19 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 60px 20px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    section {
+        padding: 20px;
+    }
 }
