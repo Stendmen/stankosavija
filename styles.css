@@ -23,11 +23,11 @@ header {
 
 /* Profile Image Styling */
 .profile-image {
-    width: 100px !important; /* Slightly larger size */
-    height: 100px !important; /* Keep it square */
-    border-radius: 50%; /* Make it circular */
-    object-fit: cover;
-    margin-bottom: 10px; /* Space between image and heading */
+    width: 120px; /* Set width to 120px */
+    height: 120px; /* Set height to 120px */
+    border-radius: 50%; /* Keeps the image circular */
+    object-fit: cover; /* Ensures the image fits well within the circle */
+    margin-bottom: 10px; /* Space between the image and the heading */
 }
 
 header h1 {
