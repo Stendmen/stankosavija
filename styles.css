@@ -49,6 +49,30 @@ p {
     margin-bottom: 15px;
 }
 
+/* Project Card Styling */
+.project {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
 /* Contact Section Specific Styling */
 #contact {
     text-align: center;
