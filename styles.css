@@ -14,7 +14,7 @@ body {
 
 header {
     text-align: center;
-    padding: 30px 20px; /* Reduced padding for a more compact header */
+    padding: 20px 20px; /* Reduced padding for a more compact header */
     background-color: #ffffff;
     margin-bottom: 10px; /* Reduced margin between header and nav */
     border-radius: 12px;
@@ -23,8 +23,8 @@ header {
 
 /* Profile Image Styling */
 .profile-image {
-    width: 80px; /* Smaller size */
-    height: 80px; /* Keep it square */
+    width: 80px !important; /* Smaller size with !important to ensure it's applied */
+    height: 80px !important; /* Keep it square */
     border-radius: 50%; /* Make it circular */
     object-fit: cover;
     margin-bottom: 10px; /* Space between image and heading */
@@ -151,7 +151,7 @@ a:hover {
     }
 
     header {
-        padding: 30px 20px; /* Adjust padding for mobile */
+        padding: 20px 20px; /* Adjust padding for mobile */
     }
 
     header h1 {
