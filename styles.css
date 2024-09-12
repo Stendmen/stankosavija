@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     box-sizing: border-box;
 }
 
+/* Header Styles */
 header {
     text-align: center;
     padding: 20px;
@@ -18,23 +20,27 @@ header .profile-image {
     object-fit: cover;
 }
 
+/* Navigation Bar Styles */
 nav {
     display: flex;
     justify-content: center;
-    background-color: #343a40;
+    background-color: #fff; /* White background for navigation */
+    border-bottom: 1px solid #ddd; /* Optional border for separation */
 }
 
 nav a {
-    color: #fff;
+    color: #007bff; /* Blue color for text */
     text-decoration: none;
     padding: 15px 20px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
 }
 
 nav a:hover {
-    background-color: #495057;
+    background-color: #e9ecef; /* Light grey background on hover */
+    color: #0056b3; /* Darker blue text on hover */
 }
 
+/* Contact Section Styles */
 #contact {
     padding: 20px;
     text-align: center;
@@ -49,6 +55,7 @@ nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Contact Icons Layout */
 .contact-icons {
     display: flex;
     justify-content: space-around;
@@ -60,6 +67,7 @@ nav a:hover {
     font-size: 18px;
 }
 
+/* Contact Icons Styles */
 .contact-icon {
     text-decoration: none;
     color: #007bff;
@@ -69,9 +77,10 @@ nav a:hover {
 
 .contact-icon:hover {
     color: #0056b3;
-    transform: scale(1.15); /* Enlarges icon on hover */
+    transform: scale(1.15); /* Slightly enlarge icon on hover */
 }
 
+/* Footer Styles */
 footer {
     text-align: center;
     padding: 10px;
@@ -79,6 +88,7 @@ footer {
     color: #6c757d;
 }
 
+/* Responsive Design */
 @media (max-width: 600px) {
     .contact-box {
         width: 90%;
@@ -92,6 +102,6 @@ footer {
         margin: 10px 0;
     }
     .contact-icon {
-        font-size: 48px;
+        font-size: 48px; /* Smaller icons for mobile view */
     }
 }
