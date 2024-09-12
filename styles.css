@@ -9,7 +9,7 @@ body {
 /* Header Styles */
 header {
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px;
     background-color: #f8f9fa;
 }
 
@@ -24,23 +24,24 @@ header .profile-image {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #fff; /* White background for navigation */
-    border-bottom: 1px solid #ddd; /* Optional border for separation */
+    background-color: #fff; /* White background */
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0; /* Padding for spacing */
 }
 
 nav a {
-    color: #007bff; /* Blue color for text */
+    color: #007bff; /* Blue color for links */
     text-decoration: none;
-    padding: 15px 20px;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
 }
 
 nav a:hover {
-    background-color: #e9ecef; /* Light grey background on hover */
-    color: #0056b3; /* Darker blue text on hover */
+    background-color: #007bff; /* Blue hover effect */
+    color: #fff; /* White text on hover */
 }
 
-/* Contact Section Styles */
+/* Main Contact Section */
 #contact {
     padding: 20px;
     text-align: center;
@@ -48,11 +49,12 @@ nav a:hover {
 
 .contact-box {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White background for contact box */
 }
 
 /* Contact Icons Layout */
@@ -102,6 +104,6 @@ footer {
         margin: 10px 0;
     }
     .contact-icon {
-        font-size: 48px; /* Smaller icons for mobile view */
+        font-size: 48px; /* Slightly smaller icons for mobile */
     }
 }
