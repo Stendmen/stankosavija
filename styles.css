@@ -115,10 +115,13 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+    max-width: 150px; /* Limit the width for consistency */
+    flex: 1;
 }
 
 .contact-icon {
-    font-size: 3em; /* Bigger icons */
+    font-size: 4.5em; /* Significantly larger icons */
     color: #3498db;
     margin-bottom: 10px;
     transition: transform 0.3s;
@@ -126,6 +129,13 @@ p {
 
 .contact-icon:hover {
     transform: scale(1.2); /* Enlarge icons on hover */
+}
+
+.contact-separator {
+    width: 2px;
+    height: 80px;
+    background-color: #e0e0e0;
+    align-self: center;
 }
 
 footer {
@@ -165,5 +175,10 @@ a:hover {
 
     h2 {
         font-size: 1.6em;
+    }
+
+    .contact-separator {
+        width: 80%;
+        height: 2px;
     }
 }
