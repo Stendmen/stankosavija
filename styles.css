@@ -56,7 +56,7 @@ nav {
 
 nav a {
     color: #222;
-    text-decoration: none; /* No underline on normal state */
+    text-decoration: none;
     padding: 10px 20px;
     margin: 0 10px;
     border-radius: 5px;
