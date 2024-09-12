@@ -1,3 +1,5 @@
+/* Your existing CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -122,6 +124,10 @@ p {
     color: #3498db;
     margin-bottom: 10px;
     transition: transform 0.3s;
+}
+
+.contact-icon.fa-whatsapp {
+    color: #25D366; /* WhatsApp green color */
 }
 
 .contact-icon:hover {
