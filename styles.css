@@ -41,7 +41,7 @@ nav a:hover {
 }
 
 .contact-box {
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ddd;
@@ -51,14 +51,19 @@ nav a:hover {
 
 .contact-icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px 0;
+}
+
+.contact-item {
+    text-align: center;
+    font-size: 18px;
 }
 
 .contact-icon {
     text-decoration: none;
     color: #007bff;
-    font-size: 48px; /* Significantly larger icons */
+    font-size: 64px; /* Significantly larger icons */
     transition: color 0.3s, transform 0.3s;
 }
 
@@ -83,7 +88,10 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+    .contact-item {
+        margin: 10px 0;
+    }
     .contact-icon {
-        margin: 10px 0; /* Adds space between icons on smaller screens */
+        font-size: 48px;
     }
 }
