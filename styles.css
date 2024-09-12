@@ -70,7 +70,6 @@ nav a:hover {
     color: #fff; /* Change text color on hover */
     transform: scale(1.1); /* Slightly enlarge the text on hover */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Add a subtle shadow */
-    text-decoration: none; /* Ensure no underline on hover */
 }
 
 section {
