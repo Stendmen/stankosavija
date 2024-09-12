@@ -56,7 +56,7 @@ nav {
 
 nav a {
     color: #222;
-    text-decoration: none;
+    text-decoration: none; /* Ensure no underline by default */
     padding: 10px 20px;
     margin: 0 10px;
     border-radius: 5px;
@@ -70,7 +70,9 @@ nav a:hover {
     color: #fff; /* Change text color on hover */
     transform: scale(1.1); /* Slightly enlarge the text on hover */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Add a subtle shadow */
+    text-decoration: none; /* Ensure no underline on hover */
 }
+
 
 section {
     background: #ffffff;
