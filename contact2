@@ -1,1 +1,51 @@
-242
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Stanko Savija Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="https://github.com/Stendmen/stankosavija/blob/main/images/stanko-slika.png?raw=true" alt="Stanko Savija" class="profile-image">
+        <h1>Let’s Talk Ideas.</h1>
+        <p class="intro-text">Interested in collaborating? I’m always open to discussing new opportunities, projects, or any questions you may have.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="technical-skills.html">Technical Skills & Certifications</a>
+        <a href="soft-skills.html">Soft Skills & Education</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section id="contact">
+        <h2>Let's Get in Touch</h2>
+        <div class="contact-box">
+            <p>Reach out to me through the methods below:</p>
+            <ul class="contact-list">
+                <li>
+                    <i class="fas fa-phone-alt"></i> 
+                    <a href="tel:+1234567890">+123-456-7890</a>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i> 
+                    <a href="mailto:your-email@example.com">your-email@example.com</a>
+                </li>
+                <li>
+                    <i class="fab fa-linkedin"></i> 
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Stanko Savija. All rights reserved.</p>
+    </footer>
+</body>
+</html>
