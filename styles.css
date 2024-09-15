@@ -92,7 +92,9 @@ h2 {
     margin-bottom: 15px;
     font-size: 2em;
     color: #333;
-    text-align: center; /* Center section titles */
+    display: inline-block;
+    padding-bottom: 5px;
+    text-align: center;
 }
 
 p {
@@ -121,10 +123,6 @@ p {
     transition: transform 0.3s;
 }
 
-.contact-icon.fa-whatsapp {
-    color: #25D366; /* WhatsApp green color */
-}
-
 .contact-icon:hover {
     transform: scale(1.2); /* Enlarge icons on hover */
 }
@@ -141,6 +139,17 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.proficiency-levels {
+    text-align: left;
+    padding: 20px;
+    font-size: 1em;
+}
+
+.proficiency-levels li::before {
+    content: '★ ';
+    color: #3498db; /* Star color */
 }
 
 @media (max-width: 768px) {
