@@ -56,7 +56,7 @@ nav {
 
 nav a {
     color: #222;
-    text-decoration: none !important; /* Add !important to enforce the rule */
+    text-decoration: none !important;
     padding: 10px 20px;
     margin: 0 10px;
     border-radius: 5px;
@@ -70,9 +70,8 @@ nav a:hover {
     color: #fff;
     transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    text-decoration: none !important; /* Add !important to ensure no underline on hover */
+    text-decoration: none !important;
 }
-
 
 section {
     background: #ffffff;
@@ -107,8 +106,8 @@ p {
 .contact-box {
     display: flex;
     justify-content: center;
-    gap: 50px; /* Space between icons */
-    flex-wrap: wrap; /* Adjust for smaller screens */
+    gap: 50px;
+    flex-wrap: wrap;
     padding: 20px 0;
 }
 
@@ -119,14 +118,14 @@ p {
 }
 
 .contact-icon {
-    font-size: 3em; /* Bigger icons */
+    font-size: 3em;
     color: #3498db;
     margin-bottom: 10px;
     transition: transform 0.3s;
 }
 
 .contact-icon:hover {
-    transform: scale(1.2); /* Enlarge icons on hover */
+    transform: scale(1.2);
 }
 
 footer {
@@ -141,6 +140,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Styles for the Technical Skills Image */
+.skills-table {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains the image aspect ratio */
+    margin: 20px 0; /* Adds some spacing around the image */
+    border-radius: 10px; /* Adds a slight rounding to the image corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
 }
 
 @media (max-width: 768px) {
