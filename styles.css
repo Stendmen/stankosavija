@@ -99,7 +99,7 @@ h2 {
 }
 
 .skills-image {
-    max-width: 80%; /* Reverted to a larger size */
+    max-width: 100%; 
     height: auto;
     margin: 20px auto;
     display: block;
