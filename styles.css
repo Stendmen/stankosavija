@@ -99,10 +99,16 @@ h2 {
 }
 
 .skills-image {
-    max-width: 80%; /* Smaller size */
+    max-width: 50%; /* Significantly smaller size */
     height: auto;
     margin: 20px auto;
     display: block;
+}
+
+.proficiency-levels {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 500px; /* Limit width for better alignment */
 }
 
 .proficiency-levels p {
@@ -114,6 +120,9 @@ h2 {
 .small-text {
     font-size: 0.9em;
     color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 p {
