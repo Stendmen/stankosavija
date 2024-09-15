@@ -97,7 +97,7 @@ h2 {
 
 .skills-table {
     width: 100%;
-    max-width: 600px; /* Adjust the max-width to fit the layout */
+    max-width: 300px; /* Reverting to smaller size */
     margin: 0 auto 20px;
     border: 1px solid #ddd;
     padding: 10px;
@@ -106,8 +106,9 @@ h2 {
 
 .proficiency-section {
     text-align: left;
-    margin: 20px auto;
+    margin: 20px auto 40px; /* Add extra spacing below */
     color: #666; /* Lighter color for the proficiency text */
+    max-width: 600px; /* Aligning with the image/table size */
 }
 
 .proficiency-list {
@@ -117,7 +118,7 @@ h2 {
 
 .proficiency-list li {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Proper alignment of stars and text */
     margin-bottom: 8px;
 }
 
@@ -125,20 +126,17 @@ h2 {
     content: '★';
     display: inline-block;
     margin-right: 8px;
-}
-
-.proficiency-list li span {
-    margin-left: 20px; /* Align the text with the stars */
+    line-height: 1;
 }
 
 .certificates {
     font-weight: bold;
     text-align: left;
-    margin: 30px 0 10px;
+    margin: 30px 0 20px; /* Added more space */
 }
 
 .previous-training {
-    font-size: 0.9em;
+    font-size: 0.9em; /* Smaller font size */
     text-align: left;
     color: #555;
     margin-top: 10px;
