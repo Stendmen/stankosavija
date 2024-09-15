@@ -92,55 +92,40 @@ h2 {
     margin-bottom: 15px;
     font-size: 2em;
     color: #333;
+    display: inline-block;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
     text-align: center;
 }
 
-.skills-table {
-    width: 95%;
-    max-width: 300px; /* Reverting to smaller size */
-    margin: 0 auto 20px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.proficiency-section {
-    text-align: left;
-    margin: 20px auto 40px; /* Add extra spacing below */
-    color: #666; /* Lighter color for the proficiency text */
-    max-width: 600px; /* Aligning with the image/table size */
-}
-
-.proficiency-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.proficiency-list li {
-    display: flex;
-    align-items: flex-start; /* Proper alignment of stars and text */
-    margin-bottom: 8px;
-}
-
-.proficiency-list li::before {
-    content: '★';
-    display: inline-block;
-    margin-right: 8px;
-    line-height: 1;
-}
-
-.certificates {
-    font-weight: bold;
-    text-align: left;
-    margin: 30px 0 20px; /* Added more space */
-}
-
-.previous-training {
-    font-size: 0.8em; /* Smaller font size */
-    text-align: left;
+p {
+    margin-bottom: 15px;
     color: #555;
-    margin-top: 10px;
-    line-height: 1.4;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Space between icons */
+    flex-wrap: wrap; /* Adjust for smaller screens */
+    padding: 20px 0;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-icon {
+    font-size: 3em; /* Bigger icons */
+    color: #3498db;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.contact-icon:hover {
+    transform: scale(1.2); /* Enlarge icons on hover */
 }
 
 footer {
