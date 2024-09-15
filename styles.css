@@ -96,7 +96,7 @@ h2 {
 }
 
 .skills-table {
-    width: 100%;
+    width: 90%;
     max-width: 300px; /* Reverting to smaller size */
     margin: 0 auto 20px;
     border: 1px solid #ddd;
