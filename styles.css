@@ -99,7 +99,7 @@ h2 {
 }
 
 .skills-image {
-    max-width: 50%; /* Significantly smaller size */
+    max-width: 80%; /* Reverted to a larger size */
     height: auto;
     margin: 20px auto;
     display: block;
@@ -108,13 +108,33 @@ h2 {
 .proficiency-levels {
     text-align: left;
     margin: 20px auto;
-    max-width: 500px; /* Limit width for better alignment */
+    max-width: 500px;
 }
 
 .proficiency-levels p {
     margin: 5px 0;
     font-size: 1em;
     color: #333;
+    padding-left: 1.5em; /* Align stars with text */
+    text-indent: -1.5em; /* Align text with stars */
+}
+
+.certificates-list {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+    list-style-type: none; /* Remove default list styling */
+}
+
+.certificates-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 10px; /* Space between year and text */
+}
+
+.year {
+    font-weight: bold;
+    width: 50px; /* Fixed width for alignment */
 }
 
 .small-text {
