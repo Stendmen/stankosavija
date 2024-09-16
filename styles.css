@@ -119,24 +119,18 @@ p {
 
 .contact-icon {
     font-size: 3em;
+    color: #3498db; /* Default color */
     margin-bottom: 10px;
     transition: transform 0.3s;
 }
 
-.phone-icon {
-    color: #25D366; /* WhatsApp green */
-}
-
-.whatsapp-icon {
-    color: #25D366; /* WhatsApp green */
-}
-
-.email-icon {
-    color: #D44638; /* Gmail's red color */
-}
-
 .contact-icon:hover {
     transform: scale(1.2);
+}
+
+.contact-icon.phone i,
+.contact-icon.whatsapp i {
+    color: #25D366 !important; /* Green color for phone and WhatsApp icons */
 }
 
 footer {
