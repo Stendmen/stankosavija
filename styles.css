@@ -105,7 +105,7 @@ p {
 
 /* Updated styling for text under contact icons */
 .contact-item p {
-    font-size: 1.5em; /* Slightly increase the font size */
+    font-size: 1.3em; /* Slightly increase the font size */
     color: #000000; /* Darker shade for better visibility */
     font-weight: 400; /* Increase the font weight slightly */
     margin-top: 5px; /* Add a little space above the text */
