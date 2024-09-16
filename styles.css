@@ -103,6 +103,14 @@ p {
     color: #555;
 }
 
+/* Updated styling for text under contact icons */
+.contact-item p {
+    font-size: 1.1em; /* Slightly increase the font size */
+    color: #333; /* Darker shade for better visibility */
+    font-weight: 600; /* Increase the font weight slightly */
+    margin-top: 5px; /* Add a little space above the text */
+}
+
 .contact-box {
     display: flex;
     justify-content: center;
@@ -118,7 +126,7 @@ p {
 }
 
 .contact-icon {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 10px;
     transition: transform 0.3s;
 }
