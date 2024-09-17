@@ -113,16 +113,16 @@ p {
 
 .contact-box {
     display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
-    padding: 20px 0;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: flex-start; /* Align items to the start of the flex container */
+    gap: 15px; /* Add space between each contact item */
+    padding: 20px 0; /* Add padding for spacing */
 }
 
 .contact-item {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: center; /* Center icons and text vertically */
+    gap: 10px; /* Add space between the icon and the text */
 }
 
 .contact-icon {
