@@ -170,6 +170,11 @@ a:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
 }
 
+/* Styles for Certificate lines to reduce spacing */
+.cert-line {
+    margin-bottom: 5px; /* Adjust the value as needed for the desired spacing */
+}
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
