@@ -81,7 +81,7 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    text-align: center;
+    text-align: left; /* Align content to the left */
 }
 
 section:hover {
@@ -103,12 +103,30 @@ p {
     color: #555;
 }
 
-/* Updated styling for text under contact icons */
-.contact-item p {
-    font-size: 1.2em; /* Slightly increase the font size */
-    color: #000000; /* Darker shade for better visibility */
-    font-weight: 400; /* Increase the font weight slightly */
-    margin-top: 5px; /* Add a little space above the text */
+.proficiency-list {
+    list-style: none; /* Removes dots */
+    padding-left: 0; /* Align to the left */
+    margin-left: 0; /* Remove additional margins */
+}
+
+.proficiency {
+    margin: 20px 0; /* Add some space */
+}
+
+.certificates-title {
+    margin-top: 30px; /* Add extra space above */
+}
+
+.certificate {
+    font-size: 0.9em; /* Smaller font size */
+    margin-left: 0; /* Align to the left */
+    padding-left: 0; /* Remove additional padding */
+}
+
+.previous-certs {
+    font-size: 0.8em; /* Even smaller for previous certifications */
+    margin-left: 0; /* Align to the left */
+    padding-left: 0; /* Remove additional padding */
 }
 
 .contact-box {
