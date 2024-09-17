@@ -81,12 +81,16 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    text-align: left; /* Align content to the left */
+    text-align: left;
 }
 
 section:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.centered-title {
+    text-align: center; /* Centers the "Technical Skills & Expertise" title */
 }
 
 h2 {
@@ -95,7 +99,6 @@ h2 {
     color: #333;
     display: inline-block;
     padding-bottom: 5px;
-    text-align: center;
 }
 
 p {
@@ -105,28 +108,43 @@ p {
 
 .proficiency-list {
     list-style: none; /* Removes dots */
-    padding-left: 0; /* Align to the left */
-    margin-left: 0; /* Remove additional margins */
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .proficiency {
-    margin: 20px 0; /* Add some space */
+    margin: 20px 0;
+}
+
+.proficiency-list li {
+    display: flex; /* Align stars and text horizontally */
+    align-items: center; /* Aligns stars with text */
+    font-size: 0.9em; /* Smaller font size */
+}
+
+.stars {
+    display: inline-block;
+    width: 70px; /* Adjust to align stars and descriptions evenly */
+}
+
+.description {
+    margin-left: 10px; /* Adds space between stars and text */
 }
 
 .certificates-title {
-    margin-top: 30px; /* Add extra space above */
+    margin-top: 30px; /* Adds extra space above */
 }
 
 .certificate {
     font-size: 0.9em; /* Smaller font size */
-    margin-left: 0; /* Align to the left */
-    padding-left: 0; /* Remove additional padding */
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .previous-certs {
-    font-size: 0.8em; /* Even smaller for previous certifications */
-    margin-left: 0; /* Align to the left */
-    padding-left: 0; /* Remove additional padding */
+    font-size: 0.8em; /* Smaller for previous certifications */
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .contact-box {
@@ -212,4 +230,3 @@ a:hover {
     h2 {
         font-size: 1.6em;
     }
-}
