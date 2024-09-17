@@ -1,233 +1,52 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Skills & Certifications | Stanko Savija Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://github.com/Stendmen/stankosavija/blob/main/images/stanko-slika.png?raw=true" alt="Stanko Savija" class="profile-image">
+        <h1>Technical Skills & Certifications</h1>
+    </header>
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
-}
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="technical-skills.html">Technical Skills & Certifications</a>
+        <a href="soft-skills.html">Soft Skills & Education</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-header {
-    text-align: center;
-    padding: 20px 20px;
-    background-color: #ffffff;
-    margin-bottom: 10px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+    <section id="technical-skills">
+        <h2 class="centered-title">Technical Skills & Expertise</h2>
+        <!-- Updated image URL as requested -->
+        <img src="https://github.com/Stendmen/stankosavija/blob/main/images/skills-table.JPG?raw=true" alt="Technical Skills Table" class="skills-table">
+        
+        <div class="proficiency">
+            <p>Proficiency levels:</p>
+            <ul class="proficiency-list no-bullets">
+                <li><span class="stars">★</span> <span class="description">No experience</span></li>
+                <li><span class="stars">★ ★</span> <span class="description">Basic Experience – average practical proficiency</span></li>
+                <li><span class="stars">★ ★ ★</span> <span class="description">On good theoretical and practical level. Can work independently</span></li>
+                <li><span class="stars">★ ★ ★ ★</span> <span class="description">Above average in experience and knowledge. Ability to lead and coach</span></li>
+                <li><span class="stars">★ ★ ★ ★ ★</span> <span class="description">Expert. Ability to architect, consult and advise end-to-end</span></li>
+            </ul>
+        </div>
 
-.profile-image {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
-}
+        <h2 class="certificates-title">Certificates and Training</h2>
+        <p class="certificate"><strong>2024</strong> Microsoft Azure Data Fundamentals (DP-900)</p>
+        <p class="certificate"><strong>2023</strong> Microsoft Power BI Data Analyst (PL-300)</p>
+        <p class="previous-certs">
+            Previously: Microsoft Power BI Desktop for Business Intelligence (Maven), Advanced Dax for Microsoft Power BI Desktop (Maven), Data Visualization: Storytelling (Udemy), Master SQL for Data Science (Udemy), Agile Project Management Certification.
+        </p>
+    </section>
 
-header h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #222;
-    margin-bottom: 10px;
-    font-family: 'Georgia', serif;
-}
-
-.intro-text {
-    font-size: 1.2em;
-    color: #444;
-    margin-top: 10px;
-    font-weight: 500;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
-    padding: 10px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-nav a {
-    color: #222;
-    text-decoration: none !important;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 5px;
-    font-weight: 500;
-    font-size: 1em;
-    transition: all 0.3s ease;
-}
-
-nav a:hover {
-    background-color: #1fa5ff;
-    color: #fff;
-    transform: scale(1.1);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    text-decoration: none !important;
-}
-
-section {
-    background: #ffffff;
-    margin: 20px auto;
-    padding: 25px;
-    max-width: 800px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    text-align: left;
-}
-
-section:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-.centered-title {
-    text-align: center; /* Centers the "Technical Skills & Expertise" title */
-}
-
-h2 {
-    margin-bottom: 15px;
-    font-size: 2em;
-    color: #333;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-p {
-    margin-bottom: 15px;
-    color: #555;
-}
-
-.proficiency-list {
-    list-style: none; /* Removes dots */
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.proficiency {
-    margin: 20px 0;
-}
-
-.proficiency-list li {
-    display: flex; /* Align stars and text horizontally */
-    align-items: center; /* Aligns stars with text */
-    font-size: 0.9em; /* Smaller font size */
-}
-
-.stars {
-    display: inline-block;
-    width: 70px; /* Adjust to align stars and descriptions evenly */
-}
-
-.description {
-    margin-left: 10px; /* Adds space between stars and text */
-}
-
-.certificates-title {
-    margin-top: 30px; /* Adds extra space above */
-}
-
-.certificate {
-    font-size: 0.9em; /* Smaller font size */
-    margin-left: 0;
-    padding-left: 0;
-}
-
-.previous-certs {
-    font-size: 0.8em; /* Smaller for previous certifications */
-    margin-left: 0;
-    padding-left: 0;
-}
-
-.contact-box {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
-    padding: 20px 0;
-}
-
-.contact-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-icon {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    transition: transform 0.3s;
-}
-
-.phone-icon {
-    color: #25D366; /* WhatsApp green */
-}
-
-.whatsapp-icon {
-    color: #25D366; /* WhatsApp green */
-}
-
-.email-icon {
-    color: #D44638; /* Gmail's red color */
-}
-
-.contact-icon:hover {
-    transform: scale(1.2);
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-}
-
-a {
-    color: #3498db;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Styles for the Technical Skills Image */
-.skills-table {
-    max-width: 85%; /* Ensures the image is responsive */
-    height: auto; /* Maintains the image aspect ratio */
-    margin: 20px 0; /* Adds some spacing around the image */
-    border-radius: 10px; /* Adds a slight rounding to the image corners */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
-}
-
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
-
-    nav a {
-        margin: 5px 0;
-    }
-
-    header {
-        padding: 20px 20px;
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
-
-    section {
-        padding: 20px;
-    }
-
-    h2 {
-        font-size: 1.6em;
-    }
-}
+    <footer>
+        <p>&copy; 2024 by Stanko Savija. All rights reserved.</p>
+    </footer>
+</body>
+</html>
