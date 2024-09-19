@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Path & Resume | Stanko Savija Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="https://github.com/Stendmen/stankosavija/blob/main/images/stanko-slika.png?raw=true" alt="Stanko Savija" class="profile-image">
+        <h1>Career Path & Resume</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="technical-skills.html">Technical Skills & Certifications</a>
+        <a href="soft-skills.html">Soft Skills & Education</a>
+        <a href="career.html">Career Path & Resume</a> <!-- Make sure all pages have this link -->
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section id="resume">
+        <h2>Download My Resume</h2>
+        <a href="link-to-your-resume.pdf" target="_blank" class="btn">Download Resume</a> <!-- Replace 'link-to-your-resume.pdf' with your actual resume link -->
+    </section>
+
+    <section id="career-path">
+        <h2>My Career Path</h2>
+        <p>Detail your career progression here. Mention your roles, responsibilities, and achievements in a concise and professional manner. For example:</p>
+        <h3>Senior Data Analyst at Company Name</h3>
+        <p>January 2020 - Present</p>
+        <ul>
+            <li>Developed complex Power BI dashboards to monitor business performance.</li>
+            <li>Created data models to improve data accuracy and reporting efficiency.</li>
+            <li>Worked closely with stakeholders to define reporting needs and deliver actionable insights.</li>
+        </ul>
+        <!-- Add more roles as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 by Stanko Savija. All rights reserved.</p>
+    </footer>
+</body>
+</html>
