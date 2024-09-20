@@ -20,38 +20,64 @@ body {
     padding: 0 20px; /* Add padding for smaller screens */
 }
 
+/* Header Styles including cover image */
 header {
+    position: relative; /* Ensure relative positioning for inner elements */
     text-align: center;
-    padding: 20px 20px;
+    padding: 60px 20px; /* Adjusted padding for more height */
     background-color: #ffffff;
     margin-bottom: 10px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures content stays within the box */
 }
 
-.profile-image {
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://github.com/stankosavija/stankosavija/blob/main/images/portfolio%20cover%20image.jpg?raw=true'); /* Add your cover image path */
+    background-size: cover; /* Make sure the image covers the whole area */
+    background-position: center; /* Center the image */
+    opacity: 0.5; /* Adjust opacity for a slight overlay effect */
+    z-index: 1; /* Ensure the image stays below the content */
+    border-radius: 12px; /* Match the border-radius of the header */
+}
+
+header .profile-image {
+    position: relative;
+    z-index: 2; /* Ensure image stays above the background */
     width: 180px;
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
+    border: 5px solid #fff; /* Add a white border around profile image */
+}
+
+header h1,
+header p {
+    position: relative;
+    z-index: 2; /* Ensure text stays above the background */
+    color: #fff; /* White text for better contrast against background */
+    margin: 10px 0; /* Spacing between lines */
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 3em; /* Increase font size for better visibility */
     font-weight: bold;
-    color: #222;
-    margin-bottom: 10px;
     font-family: 'Georgia', serif;
 }
 
-.intro-text {
-    font-size: 1.2em;
-    color: #444;
-    margin-top: 10px;
+header p.intro-text {
+    font-size: 1.5em; /* Adjusted size for better visibility */
     font-weight: 500;
 }
 
+/* Navigation Styles */
 nav {
     display: flex;
     justify-content: center;
@@ -83,6 +109,7 @@ nav a:hover {
     text-decoration: none !important;
 }
 
+/* Section Styles */
 section {
     background: #ffffff;
     margin: 20px auto;
@@ -99,6 +126,7 @@ section:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* Section Headings */
 h2 {
     margin-bottom: 15px;
     font-size: 2em;
@@ -157,6 +185,7 @@ p {
     transform: scale(1.2);
 }
 
+/* Footer Styles */
 footer {
     text-align: center;
     margin-top: 20px;
