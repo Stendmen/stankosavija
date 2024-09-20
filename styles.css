@@ -47,6 +47,8 @@ header::before {
     border-radius: 12px; /* Match the border-radius of the header */
 }
 
+
+
 /* Remove dark overlay */
 header::after {
     display: none; /* Disable the dark overlay */
@@ -86,7 +88,6 @@ header p.intro-text {
 nav {
     display: flex;
     justify-content: center;
-    align-items: center; /* Center vertically */
     background-color: #fff;
     padding: 10px;
     margin-bottom: 30px;
@@ -97,35 +98,22 @@ nav {
 }
 
 nav a {
-    display: flex; /* Use flexbox for inner content alignment */
-    align-items: center; /* Vertically center the text */
-    justify-content: center; /* Horizontally center the text */
     color: #222;
     text-decoration: none !important;
-    padding: 15px 30px; /* Adjust padding for uniform size */
-    margin: 0 10px; /* Spacing between navigation items */
+    padding: 10px 20px;
+    margin: 0 10px;
     border-radius: 5px;
     font-weight: 500;
     font-size: 1em;
     transition: all 0.3s ease;
-    min-width: 120px; /* Set a minimum width for each navigation link */
-    text-align: center; /* Ensure text is centered */
-    box-sizing: border-box; /* Include padding in width */
 }
 
-/* Hover Effect */
 nav a:hover {
-    background-color: #007bff; /* Keep the hover color as in your example */
-    color: #fff; /* White text on hover */
-    transform: scale(1.05); /* Slight scale effect on hover */
+    background-color: #1fa5ff;
+    color: #fff;
+    transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     text-decoration: none !important;
-}
-
-/* Active Link Style */
-nav a.active {
-    background-color: #007bff; /* Same as hover color */
-    color: #fff; /* White text */
 }
 
 /* Section Styles */
