@@ -85,9 +85,11 @@ header p.intro-text {
 }
 
 /* Navigation Styles */
+/* Navigation Styles */
 nav {
     display: flex;
     justify-content: center;
+    align-items: center; /* Center vertically */
     background-color: #fff;
     padding: 10px;
     margin-bottom: 30px;
@@ -98,6 +100,9 @@ nav {
 }
 
 nav a {
+    display: flex; /* Use flexbox for inner content alignment */
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
     color: #222;
     text-decoration: none !important;
     padding: 10px 20px;
@@ -106,6 +111,8 @@ nav a {
     font-weight: 500;
     font-size: 1em;
     transition: all 0.3s ease;
+    height: 100%; /* Ensures links fill their containers */
+    box-sizing: border-box; /* Include padding in height */
 }
 
 nav a:hover {
