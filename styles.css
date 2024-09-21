@@ -78,15 +78,18 @@ header p.intro-text {
     z-index: 2; /* Ensure text stays above the background */
     color: #fff; /* White text for better contrast against background */
     margin: 10px 0; /* Spacing between lines */
-    background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%); /* Gradient background for a cool effect */
-    padding: 5px 15px; /* Reduce padding for a tighter fit */
-    border-radius: 12px; /* More rounded corners for a modern look */
+    background-image: url('https://raw.githubusercontent.com/stankosavija/stankosavija/main/images/brush-stroke.png'); /* Artistic brush stroke background image */
+    background-size: cover; /* Cover the area with the image */
+    background-repeat: no-repeat; /* No repeat for the image */
+    background-position: center; /* Center the background image */
+    padding: 20px 40px; /* Adjusted padding for a tighter fit */
+    border-radius: 0; /* No border-radius for a flat look */
     display: inline-block; /* Fit the background to the text size */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for a raised effect */
-    backdrop-filter: blur(4px); /* Adds a subtle blur effect to the background */
     font-size: 1.2em; /* Adjusted font size */
     line-height: 1.2; /* Adjusted line height for a tighter fit */
 }
+
 
 
 /* Navigation Styles */
