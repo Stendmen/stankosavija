@@ -78,10 +78,14 @@ header p.intro-text {
     z-index: 2; /* Ensure text stays above the background */
     color: #fff; /* White text for better contrast against background */
     margin: 10px 0; /* Spacing between lines */
-    background-color: rgba(0, 0, 0, 0.7); /* Black background with 70% opacity */
-    padding: 10px 20px; /* Add padding around the text */
-    border-radius: 8px; /* Round the corners */
+    background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%); /* Gradient background for a cool effect */
+    padding: 5px 15px; /* Reduce padding for a tighter fit */
+    border-radius: 12px; /* More rounded corners for a modern look */
     display: inline-block; /* Fit the background to the text size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for a raised effect */
+    backdrop-filter: blur(4px); /* Adds a subtle blur effect to the background */
+    font-size: 1.2em; /* Adjusted font size */
+    line-height: 1.2; /* Adjusted line height for a tighter fit */
 }
 
 
