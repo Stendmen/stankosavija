@@ -15,21 +15,21 @@ body {
 
 /* Container for central alignment */
 .container {
-    max-width: 1100px; /* Adjust the width to match the nav's width */
-    margin: 0 auto; /* Center the container */
-    padding: 0 20px; /* Add padding for smaller screens */
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Header Styles including cover image */
 header {
-    position: relative; /* Ensure relative positioning for inner elements */
+    position: relative;
     text-align: center;
-    padding: 60px 20px; /* Adjusted padding for more height */
+    padding: 60px 20px;
     background-color: #ffffff;
     margin-bottom: 10px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Ensures content stays within the box */
+    overflow: hidden;
 }
 
 header::before {
@@ -39,92 +39,83 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://github.com/stankosavija/stankosavija/blob/main/images/big%20data%20watching%20portfolio%20image.jpg?raw=true'); /* New cover image path */
-    background-size: cover; /* Ensure the image covers the entire header area */
-    background-position: center; /* Center the image */
-    opacity: 1; /* Full opacity for the new image */
-    z-index: 1; /* Ensure the image stays below the content */
-    border-radius: 12px; /* Match the border-radius of the header */
-}
-
-
-
-/* Remove dark overlay */
-header::after {
-    display: none; /* Disable the dark overlay */
+    background-image: url('https://github.com/stankosavija/stankosavija/blob/main/images/big%20data%20watching%20portfolio%20image.jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: 1;
+    border-radius: 12px;
 }
 
 header .profile-image {
     position: relative;
-    z-index: 2; /* Ensure image stays above the background */
+    z-index: 2;
     width: 180px;
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
-    border: 5px solid #fff; /* Add a white border around profile image */
+    border: 5px solid #fff;
 }
 
 header h1,
 header p {
     position: relative;
-    z-index: 2; /* Ensure text stays above the background */
-    color: #fff; /* White text for better contrast against background */
-    margin: 10px 0; /* Spacing between lines */
+    z-index: 2;
+    color: #fff;
+    margin: 10px 0;
 }
 
 header h1 {
-    font-size: 3em; /* Increase font size for better visibility */
+    font-size: 3em;
     font-weight: bold;
     font-family: 'Georgia', serif;
 }
 
 header p.intro-text {
-    font-size: 1.5em; /* Adjusted size for better visibility */
+    font-size: 1.5em;
     font-weight: 500;
 }
 
 /* Navigation Styles */
-/* Navigation Styles */
 nav {
     display: flex;
     justify-content: center;
-    align-items: center; /* Center navigation items vertically */
+    align-items: center;
     background-color: #fff;
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 1100px; /* Set the same max-width as sections */
-    margin: 0 auto 30px auto; /* Center the nav */
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
 }
 
 nav a {
-    display: flex; /* Use flexbox for inner content alignment */
-    align-items: center; /* Vertically center the text */
-    justify-content: center; /* Horizontally center the text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #222;
     text-decoration: none !important;
-    padding: 15px 30px; /* Adjust padding for uniform size */
-    margin: 0 10px; /* Spacing between navigation items */
+    padding: 15px 30px;
+    margin: 0 10px;
     border-radius: 5px;
     font-weight: 500;
     font-size: 1em;
     transition: all 0.3s ease;
-    min-width: 120px; /* Set a minimum width for each navigation link */
-    text-align: center; /* Ensure text is centered */
-    box-sizing: border-box; /* Include padding in width */
-    height: 50px; /* Set a fixed height to vertically center text */
-    line-height: 1.5em; /* Adjust line-height for vertical alignment */
+    min-width: 120px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 1.5em;
 }
 
-
-nav a:hover {
+nav a:hover,
+nav a.active {
     background-color: #1fa5ff;
     color: #fff;
     transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    text-decoration: none !important;
 }
 
 /* Section Styles */
@@ -132,7 +123,7 @@ section {
     background: #ffffff;
     margin: 20px auto;
     padding: 25px;
-    max-width: 1100px; /* Updated max-width to match navigation */
+    max-width: 1100px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
@@ -144,7 +135,6 @@ section:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Section Headings */
 h2 {
     margin-bottom: 15px;
     font-size: 2em;
@@ -207,8 +197,8 @@ p {
 footer {
     text-align: center;
     margin-top: 20px;
-    max-width: 1100px; /* Ensure footer matches the width of other sections */
-    margin: 30px auto; /* Center footer */
+    max-width: 1100px;
+    margin: 30px auto;
 }
 
 a {
@@ -254,4 +244,8 @@ a:hover {
     h2 {
         font-size: 1.6em;
     }
+}
+
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
 }
