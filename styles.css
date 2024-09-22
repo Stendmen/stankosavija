@@ -158,31 +158,33 @@ p {
     margin-top: 5px;
 }
 
+/* Updated Contact Box Styles */
 .contact-box {
     display: flex;
-    justify-content: space-between; /* Space evenly between items */
-    gap: 20px; /* Adjust as necessary */
-    flex-wrap: nowrap; /* Prevent wrapping to new line */
-    padding: 20px 0;
-    max-width: 800px; /* Limit the width to keep items closer together */
-    margin: 0 auto; /* Center the container */
+    justify-content: space-between; /* Distributes space evenly between items */
+    padding: 20px; /* Adjust the padding if needed */
+    max-width: 1100px; /* Match the main container's width */
+    margin: 0 auto; /* Center the contact box within its container */
 }
 
+/* Adjusting Contact Items */
 .contact-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1; /* Ensure equal spacing for each item */
-    min-width: 150px; /* Prevent items from getting too narrow */
+    flex: 1; /* Ensure each item takes equal space */
+    text-align: center; /* Center the text and icon in each item */
+    min-width: 150px; /* Set a minimum width to avoid collapsing */
 }
 
-
+/* Icon Size and Hover Effects */
 .contact-icon {
-    font-size: 2.5em;
+    font-size: 2.5em; /* Adjust the size of icons */
     margin-bottom: 10px;
     transition: transform 0.3s;
 }
 
+/* Styling for Each Contact Icon */
 .phone-icon {
     color: #25D366;
 }
