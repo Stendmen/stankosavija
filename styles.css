@@ -160,17 +160,22 @@ p {
 
 .contact-box {
     display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
+    justify-content: space-between; /* Space evenly between items */
+    gap: 20px; /* Adjust as necessary */
+    flex-wrap: nowrap; /* Prevent wrapping to new line */
     padding: 20px 0;
+    max-width: 800px; /* Limit the width to keep items closer together */
+    margin: 0 auto; /* Center the container */
 }
 
 .contact-item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1; /* Ensure equal spacing for each item */
+    min-width: 150px; /* Prevent items from getting too narrow */
 }
+
 
 .contact-icon {
     font-size: 2.5em;
