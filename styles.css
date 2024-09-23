@@ -161,6 +161,7 @@ p {
 /* Updated Contact Box Styles */
 .contact-box {
     display: flex;
+    flex-wrap: wrap; /* Enable wrapping for items */
     justify-content: space-between; /* Distributes space evenly between items */
     padding: 20px; /* Adjust the padding if needed */
     max-width: 1100px; /* Match the main container's width */
@@ -172,9 +173,10 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1; /* Ensure each item takes equal space */
+    flex: 1 1 200px; /* Ensure each item takes equal space and sets a base width */
     text-align: center; /* Center the text and icon in each item */
     min-width: 150px; /* Set a minimum width to avoid collapsing */
+    margin: 10px; /* Add margin for spacing between items */
 }
 
 /* Icon Size and Hover Effects */
@@ -251,6 +253,18 @@ a:hover {
 
     h2 {
         font-size: 1.6em;
+    }
+
+    /* Responsive Contact Box Styles */
+    .contact-box {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center items */
+    }
+
+    .contact-item {
+        flex: none; /* Reset flex properties */
+        width: 100%; /* Full width on mobile */
+        margin: 10px 0; /* Vertical spacing */
     }
 }
 
