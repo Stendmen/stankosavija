@@ -68,19 +68,12 @@ header p {
 
 /* Adjusting Header Text Size */
 header h1 {
-    font-size: 7em; 
+    font-size: 7em; /* Adjust this value to change the size */
     font-weight: bold;
     font-family: 'Georgia', serif;
     margin: 10px 0; 
 }
 
-header h1 {
-    font-size: 5em;
-    font-weight: bold;
-    font-family: 'Georgia', serif;
-}
-
-header h1,
 header p.intro-text {
     font-size: 1.5em;
     font-weight: 500;
@@ -252,7 +245,7 @@ a:hover {
     }
 
     header h1 {
-        font-size: 2em;
+        font-size: 3em; /* Adjust for smaller screens */
     }
 
     section {
