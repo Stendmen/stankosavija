@@ -18,7 +18,7 @@
 
         <!-- Navigation -->
         <nav>
-            <a href="#welcome">Welcome</a> <!-- Changed from #home to #welcome -->
+            <a href="#">Welcome</a> <!-- Changed href to # to stay at the top -->
             <a href="#projects">Projects</a>
             <a href="#career">Career Path & Resume</a>
             <a href="#technical-skills">Technical Skills & Certifications</a>
@@ -127,17 +127,5 @@
             <p>&copy; 2024 by Stanko Savija. All rights reserved.</p>
         </footer>
     </div>
-
-    <!-- Optional: Smooth Scrolling Script for smooth navigation -->
-    <script>
-        document.querySelectorAll('nav a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
 </body>
 </html>
