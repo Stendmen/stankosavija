@@ -68,7 +68,7 @@ header p {
 
 /* Adjusting Header Text Size */
 header h1 {
-    font-size: 7em; /* Adjust this value to change the size */
+    font-size: 5em; /* Adjust this value to change the size */
     font-weight: bold;
     font-family: 'Georgia', serif;
     margin: 10px 0; 
