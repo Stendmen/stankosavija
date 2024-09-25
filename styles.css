@@ -161,6 +161,7 @@ p {
 }
 
 /* Technical Icons Section */
+/* Technical Icons Section */
 .technical-icons {
     display: flex; /* Align icons in a row */
     justify-content: center; /* Center icons */
@@ -198,8 +199,8 @@ p {
     color: #FF8C00; /* ETL - Orange */
 }
 
-.icon-item i.fab.fa-aws {
-    color: #0089D6; /* Azure - Light Blue */
+.icon-item i.fas.fa-cloud {
+    color: #008AD7; /* Azure - Azure Blue */
 }
 
 .icon-item i.fab.fa-python {
@@ -228,6 +229,7 @@ p {
     font-size: 1.0em; /* Slightly smaller font size */
     margin: 0;
 }
+
 
 /* Contact Icons Styles */
 .contact-item p {
