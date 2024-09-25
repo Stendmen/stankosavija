@@ -151,6 +151,15 @@ p {
     color: #555;
 }
 
+/* About Me Section */
+#welcome p {
+    font-family: 'Montserrat', sans-serif; /* Applying Montserrat font */
+    color: #000000; /* The blackest color */
+    font-weight: 400; /* Normal weight for the blackest appearance without bold */
+    line-height: 1.8; /* Better readability */
+    margin-top: 20px; /* Additional space for aesthetics */
+}
+
 /* Contact Icons Styles */
 .contact-item p {
     font-size: 1.2em;
