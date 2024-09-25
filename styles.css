@@ -180,8 +180,24 @@ p {
 .icon-item i {
     font-size: 5em; /* Larger icon size */
     margin-bottom: 10px;
-    color: #0078D4; /* Icon color */
     transition: transform 0.3s ease;
+}
+
+/* Icon Colors */
+.icon-item i.fab.fa-microsoft {
+    color: #F2C811; /* Power BI - Yellow */
+}
+
+.icon-item i.fas.fa-database {
+    color: #0078D4; /* SQL - Blue */
+}
+
+.icon-item i.fab.fa-python {
+    color: #306998; /* Python - Blue */
+}
+
+.icon-item i.fas.fa-file-excel {
+    color: #217346; /* Excel - Green */
 }
 
 .icon-item i:hover {
