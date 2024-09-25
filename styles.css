@@ -160,6 +160,43 @@ p {
     margin-top: 20px; /* Additional space for aesthetics */
 }
 
+/* Technical Icons Section */
+.technical-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Enable wrapping */
+    gap: 30px; /* Space between icon items */
+    margin-top: 30px;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    text-align: center;
+    width: 100px; /* Consistent width for each icon item */
+}
+
+.icon-item i {
+    font-size: 4em; /* Icon size */
+    margin-bottom: 10px;
+    color: #0078D4; /* Color for the icons, change as needed */
+    transition: transform 0.3s ease;
+}
+
+.icon-item i:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.icon-item p {
+    font-family: 'Montserrat', sans-serif; /* Font for icon text */
+    color: #333; /* Dark text color */
+    font-size: 1.1em; /* Adjust font size as needed */
+    margin: 0;
+}
+
 /* Contact Icons Styles */
 .contact-item p {
     font-size: 1.2em;
