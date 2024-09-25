@@ -165,7 +165,8 @@ p {
     display: flex; /* Align icons in a row */
     justify-content: center; /* Center icons */
     align-items: center; /* Align vertically */
-    gap: 50px; /* Space between each icon */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 30px; /* Space between each icon */
     margin-top: 30px;
 }
 
@@ -174,12 +175,13 @@ p {
     flex-direction: column; /* Ensure text is below icon */
     align-items: center;
     text-align: center;
-    width: 100px; /* Consistent width for each icon item */
+    width: 90px; /* Consistent width for each icon item */
+    margin-bottom: 15px;
 }
 
 .icon-item i {
-    font-size: 5em; /* Larger icon size */
-    margin-bottom: 10px;
+    font-size: 3.5em; /* Slightly smaller icon size */
+    margin-bottom: 8px;
     transition: transform 0.3s ease;
 }
 
@@ -192,22 +194,38 @@ p {
     color: #0078D4; /* SQL - Blue */
 }
 
+.icon-item i.fas.fa-project-diagram {
+    color: #FF8C00; /* ETL - Orange */
+}
+
+.icon-item i.fab.fa-aws {
+    color: #0089D6; /* Azure - Light Blue */
+}
+
 .icon-item i.fab.fa-python {
     color: #306998; /* Python - Blue */
+}
+
+.icon-item i.fas.fa-chart-bar {
+    color: #E97627; /* Tableau - Orange */
 }
 
 .icon-item i.fas.fa-file-excel {
     color: #217346; /* Excel - Green */
 }
 
+.icon-item i.fab.fa-git-alt {
+    color: #F34F29; /* Git - Orange/Red */
+}
+
 .icon-item i:hover {
-    transform: scale(1.15); /* Slightly larger zoom on hover */
+    transform: scale(1.1); /* Slightly larger zoom on hover */
 }
 
 .icon-item p {
     font-family: 'Montserrat', sans-serif; /* Font for icon text */
     color: #333; /* Dark text color */
-    font-size: 1.2em; /* Slightly larger font size */
+    font-size: 1.0em; /* Slightly smaller font size */
     margin: 0;
 }
 
