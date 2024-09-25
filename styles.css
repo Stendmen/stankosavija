@@ -161,7 +161,6 @@ p {
 }
 
 /* Technical Icons Section */
-/* Technical Icons Section */
 .technical-icons {
     display: flex; /* Align icons in a row */
     justify-content: center; /* Center icons */
@@ -207,10 +206,6 @@ p {
     color: #306998; /* Python - Blue */
 }
 
-.icon-item i.fas.fa-chart-bar {
-    color: #E97627; /* Tableau - Orange */
-}
-
 .icon-item i.fas.fa-file-excel {
     color: #217346; /* Excel - Green */
 }
@@ -229,7 +224,6 @@ p {
     font-size: 1.0em; /* Slightly smaller font size */
     margin: 0;
 }
-
 
 /* Contact Icons Styles */
 .contact-item p {
