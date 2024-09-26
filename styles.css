@@ -194,8 +194,8 @@ p {
     color: #0078D4; /* SQL - Blue */
 }
 
-.icon-item i.fas.fa-project-diagram {
-    color: #FF8C00; /* ETL - Orange */
+.icon-item i.fas.fa-cubes {
+    color: #FF6A00; /* Databricks - Orange */
 }
 
 .icon-item i.fas.fa-cloud {
@@ -263,7 +263,7 @@ p {
 
 /* Styling for Each Contact Icon */
 .phone-icon {
-  color: #25D366;
+    color: #25D366;
 }
 
 .whatsapp-icon {
