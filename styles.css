@@ -66,9 +66,8 @@ header p {
     margin: 10px 0;
 }
 
-/* Adjusting Header Text Size */
 header h1 {
-    font-size: 4em; /* Adjust this value to change the size */
+    font-size: 4em;
     font-weight: bold;
     font-family: 'Georgia', serif;
     margin: 10px 0; 
@@ -151,77 +150,145 @@ p {
     color: #555;
 }
 
+/* Education Section Styles */
+.education-container {
+    display: flex;
+    flex-direction: column; /* Stack education items */
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.education-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.education-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.education-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.education-details p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Responsive Styles for Education Section */
+@media (max-width: 768px) {
+    .education-container {
+        padding: 10px;
+    }
+
+    .education-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .education-logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .education-details h3 {
+        font-size: 1.2em;
+    }
+
+    .education-details p {
+        font-size: 0.9em;
+    }
+}
+
 /* About Me Section */
 #welcome p {
     font-family: 'Montserrat', sans-serif; /* Applying Montserrat font */
     color: #000000; /* The blackest color */
-    font-weight: 400; /* Normal weight for the blackest appearance without bold */
-    line-height: 1.8; /* Better readability */
-    margin-top: 20px; /* Additional space for aesthetics */
+    font-weight: 400;
+    line-height: 1.8;
+    margin-top: 20px;
 }
 
 /* Technical Icons Section */
 .technical-icons {
-    display: flex; /* Align icons in a row */
-    justify-content: center; /* Center icons */
-    align-items: center; /* Align vertically */
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
-    gap: 30px; /* Space between each icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
     margin-top: 30px;
 }
 
 .icon-item {
     display: flex;
-    flex-direction: column; /* Ensure text is below icon */
+    flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 90px; /* Consistent width for each icon item */
+    width: 90px;
     margin-bottom: 15px;
 }
 
 .icon-item i {
-    font-size: 3.5em; /* Slightly smaller icon size */
+    font-size: 3.5em;
     margin-bottom: 8px;
     transition: transform 0.3s ease;
 }
 
-/* Icon Colors */
 .icon-item i.fab.fa-microsoft {
-    color: #F2C811; /* Power BI - Yellow */
+    color: #F2C811;
 }
 
 .icon-item i.fas.fa-database {
-    color: #0078D4; /* SQL - Blue */
+    color: #0078D4;
 }
 
 .icon-item i.fas.fa-cubes {
-    color: #FF6A00; /* Databricks - Orange */
+    color: #FF6A00;
 }
 
 .icon-item i.fas.fa-cloud {
-    color: #008AD7; /* Azure - Azure Blue */
+    color: #008AD7;
 }
 
 .icon-item i.fab.fa-python {
-    color: #306998; /* Python - Blue */
+    color: #306998;
 }
 
 .icon-item i.fas.fa-file-excel {
-    color: #217346; /* Excel - Green */
+    color: #217346;
 }
 
 .icon-item i.fab.fa-git-alt {
-    color: #F34F29; /* Git - Orange/Red */
+    color: #F34F29;
 }
 
 .icon-item i:hover {
-    transform: scale(1.1); /* Slightly larger zoom on hover */
+    transform: scale(1.1);
 }
 
 .icon-item p {
-    font-family: 'Montserrat', sans-serif; /* Font for icon text */
-    color: #333; /* Dark text color */
-    font-size: 1.0em; /* Slightly smaller font size */
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 1.0em;
     margin: 0;
 }
 
@@ -236,32 +303,29 @@ p {
 /* Updated Contact Box Styles */
 .contact-box {
     display: flex;
-    flex-wrap: wrap; /* Enable wrapping for items */
-    justify-content: space-between; /* Distributes space evenly between items */
-    padding: 20px; /* Adjust the padding if needed */
-    max-width: 1100px; /* Match the main container's width */
-    margin: 0 auto; /* Center the contact box within its container */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-/* Adjusting Contact Items */
 .contact-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 1 200px; /* Ensure each item takes equal space and sets a base width */
-    text-align: center; /* Center the text and icon in each item */
-    min-width: 150px; /* Set a minimum width to avoid collapsing */
-    margin: 10px; /* Add margin for spacing between items */
+    flex: 1 1 200px;
+    text-align: center;
+    min-width: 150px;
+    margin: 10px;
 }
 
-/* Icon Size and Hover Effects */
 .contact-icon {
-    font-size: 2.5em; /* Adjust the size of icons */
+    font-size: 2.5em;
     margin-bottom: 10px;
     transition: transform 0.3s;
 }
 
-/* Styling for Each Contact Icon */
 .phone-icon {
     color: #25D366;
 }
@@ -319,7 +383,7 @@ a:hover {
     }
 
     header h1 {
-        font-size: 3em; /* Adjust for smaller screens */
+        font-size: 3em;
     }
 
     section {
@@ -330,19 +394,18 @@ a:hover {
         font-size: 1.6em;
     }
 
-    /* Responsive Contact Box Styles */
     .contact-box {
-        flex-direction: column; /* Stack items vertically on small screens */
-        align-items: center; /* Center items */
+        flex-direction: column;
+        align-items: center;
     }
 
     .contact-item {
-        flex: none; /* Reset flex properties */
-        width: 100%; /* Full width on mobile */
-        margin: 10px 0; /* Vertical spacing */
+        flex: none;
+        width: 100%;
+        margin: 10px 0;
     }
 }
 
 html {
-    scroll-behavior: smooth; /* Enables smooth scrolling */
+    scroll-behavior: smooth;
 }
