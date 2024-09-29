@@ -177,6 +177,11 @@ p {
     object-fit: contain;
     border-radius: 5px;
 }
+/* FON logo size adjustment */
+.education-logo.fon {
+    width: 100px; /* Increase width */
+    height: 100px; /* Increase height */
+}
 
 .education-details {
     display: flex;
