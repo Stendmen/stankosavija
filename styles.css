@@ -153,26 +153,27 @@ p {
 /* Education Section Styles */
 .education-container {
     display: flex;
-    flex-direction: column; /* Stack education items */
-    gap: 20px;
+    flex-direction: column;
+    gap: 25px; /* Adjust spacing between education items */
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif; /* Nicer font for education section */
 }
 
 .education-item {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Align items at the start for better spacing */
     gap: 20px;
     text-align: left;
 }
 
 .education-logo {
-    width: 100px;
-    height: 100px;
+    width: 80px; /* Reduced width */
+    height: 80px; /* Reduced height */
     object-fit: contain;
     border-radius: 5px;
 }
@@ -184,15 +185,50 @@ p {
 }
 
 .education-details h3 {
-    font-size: 1.5em;
-    margin-bottom: 5px;
+    font-size: 1.8em; /* Increase font size for university names */
+    margin-bottom: 8px; /* Add margin below university name */
+    font-weight: 600; /* Increase weight for prominence */
     color: #333;
 }
 
 .education-details p {
+    font-size: 1em;
     margin-bottom: 10px;
     color: #555;
+    line-height: 1.6; /* Improves readability */
 }
+
+.education-details p.degree {
+    margin-top: 5px; /* Adds space between the degree and university name */
+    font-size: 1.1em; /* Slightly larger text for degree */
+    color: #444; /* Slightly darker text for better readability */
+}
+
+/* Responsive Styles for Education Section */
+@media (max-width: 768px) {
+    .education-container {
+        padding: 10px;
+    }
+
+    .education-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .education-logo {
+        width: 60px; /* Further reduce for small screens */
+        height: 60px;
+    }
+
+    .education-details h3 {
+        font-size: 1.5em;
+    }
+
+    .education-details p {
+        font-size: 0.9em;
+    }
+}
+
 
 /* Responsive Styles for Education Section */
 @media (max-width: 768px) {
