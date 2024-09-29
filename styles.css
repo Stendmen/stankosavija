@@ -178,13 +178,6 @@ p {
     border-radius: 5px;
 }
 
-/* FON logo size adjustment */
-.education-logo.fon {
-    width: 100px; /* Increase width */
-    height: 100px; /* Increase height */
-}
-
-
 .education-details {
     display: flex;
     flex-direction: column;
@@ -229,32 +222,6 @@ p {
 
     .education-details h3 {
         font-size: 1.5em;
-    }
-
-    .education-details p {
-        font-size: 0.9em;
-    }
-}
-
-
-/* Responsive Styles for Education Section */
-@media (max-width: 768px) {
-    .education-container {
-        padding: 10px;
-    }
-
-    .education-item {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .education-logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    .education-details h3 {
-        font-size: 1.2em;
     }
 
     .education-details p {
