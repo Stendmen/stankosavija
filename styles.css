@@ -96,6 +96,7 @@ header p.intro-text {
 .education-details p.thesis {
     font-style: italic;
     background-color: #007bff; /* Changed to blue, same as the navigation */
+    color: white; /* White text for better contrast */
     padding: 5px;
     border-radius: 5px;
     display: inline-block; /* Restricting width to fit the text */
@@ -123,6 +124,7 @@ header p.intro-text {
 .education-container .education-item .degree,
 .education-container .education-item .skills {
     text-align: left;
+    margin-left: 20px; /* Adjust this value if needed for better alignment */
 }
 
 
