@@ -95,11 +95,36 @@ header p.intro-text {
 
 .education-details p.thesis {
     font-style: italic;
-    background-color: #ffeb3b;
+    background-color: #007bff; /* Changed to blue, same as the navigation */
     padding: 5px;
     border-radius: 5px;
+    display: inline-block; /* Restricting width to fit the text */
     margin-bottom: 10px;
 }
+
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.education-details {
+    display: block; /* Ensure block layout for proper alignment */
+}
+
+.education-details p.degree, 
+.education-details p.skills {
+    margin-bottom: 5px;
+    line-height: 1.5; /* Adjust line height for clarity */
+}
+
+/* Aligning both education sections */
+.education-container .education-item h3, 
+.education-container .education-item .degree,
+.education-container .education-item .skills {
+    text-align: left;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
